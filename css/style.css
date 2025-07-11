@@ -1,0 +1,114 @@
+/*Text*/
+h1, h2, h3, h4, h5, h6{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+/*Whole Background*/
+body {
+    background-color: lightblue;
+    background-image: url("../img/mountains.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Backgrounds for the double sided template*/
+.side-background{
+    background-image: url("../img/forest.jpg");
+    background-color: lightblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.side-color{
+    background: #334f30;
+}
+
+.double-container{
+    height: 99vh;
+}
+
+/*Profile picture*/
+.profile-pic{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 100%;
+    max-width: 120px;
+}
+
+.big-profile-pic{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 100%;
+    width: 40vh;
+}
+
+/*Contact information*/
+.contact-container > span{
+    font-size: small;
+    margin-bottom: 15px;
+}
+
+/*Quick icon link*/
+.quick-link-container{
+    margin-bottom: 15px;
+}
+
+/*Buttons*/
+.btn{
+    position: relative;
+}
+
+.a{
+    position: relative;
+}
+
+.btn-r10{
+    border-radius: 10px;
+}
+
+/*Icon inside the button*/
+.btn-icon > i{
+    position: absolute;
+    float: left;
+    left: 15px;
+    top: 10px;
+    font-size: x-large;
+}
+
+i{
+    font-size: large;
+}
+
+/*Section title*/
+.section-title > h5{
+    font-size: 16px;
+}
+
+.section-title{
+    margin-top: 25px;
+}
+
+/*Footer*/
+.footer{
+    margin-top: 15px;
+    background: #011c36 !important;
+}
+
+.spacer{
+    height: 80px;
+}
+
+
+
