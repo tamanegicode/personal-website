@@ -11,6 +11,30 @@ a{
     color: white;
 }
 
+.name{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    font-family: 'MuseoModerno', sans-serif;
+}
+
+.job-title{
+    font-size: 1.1rem;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    max-width: 100% !important;
+  }
+
+  .d-grid {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
 #bg-video {
     position: fixed;
     top: 0;
@@ -27,16 +51,16 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
+    font-family: 'DM Sans', sans-serif;
 }
 
-/*Backgrounds for the double sided template*/
-.side-background{
-    background-image: url("../img/forest.jpg");
-    background-color: lightblue;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.card {
+    background-color: rgb(49, 48, 48);
+    border: 2px solid white;
+}
+
+.card-body {
+    font-weight: bolder;
 }
 
 .side-color{
@@ -74,8 +98,22 @@ body {
 }
 
 /*Buttons*/
-.btn{
+.btn {
     position: relative;
+    padding: 1.2rem 1.5rem;
+    padding-left: 3rem;
+    background-color: rgb(49, 48, 48);
+    border: 2px solid white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    background-color: rgb(49, 48, 48);
+    border-color: white;
 }
 
 .a{
@@ -89,10 +127,10 @@ body {
 /*Icon inside the button*/
 .btn-icon > i{
     position: absolute;
-    float: left;
     left: 15px;
-    top: 10px;
-    font-size: x-large;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.2rem;
 }
 
 i{
