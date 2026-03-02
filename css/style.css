@@ -82,7 +82,10 @@ body {
 }
 
 .card-body {
-    font-weight: regular;
+	font-weight: regular;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: left;
 }
 
 .side-color{
