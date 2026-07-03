@@ -10971,3 +10971,8 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.carousel-item img {
+  max-height: 400px;
+  object-fit: contain;
+}
